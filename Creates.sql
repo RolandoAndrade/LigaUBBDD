@@ -48,3 +48,13 @@ CREATE TABLE CANCHA(
     direccion TEXT NOT NULL
 );
 
+CREATE TABLE COMPETICION(
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    deporte VARCHAR(20) NOT NULL,
+    foto VARCHAR NOT NULL,
+    fecha_inicio DATE NOT NULL,
+    fecha_fin DATE NOT NULL,
+    genero VARCHAR(10) NOT NULL,
+    fecha_cierre_incripcion DATE NOT NULL
+);
