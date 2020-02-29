@@ -44,6 +44,7 @@ CREATE TABLE ATLETA(
 
 CREATE TABLE CANCHA(
     id SERIAL PRIMARY KEY,
-    nombre VARCHAR(50),
-    direccion TEXT
+    nombre VARCHAR(50) NOT NULL,
+    direccion TEXT NOT NULL
 );
+
