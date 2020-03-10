@@ -1,0 +1,1 @@
+SELECT "participation"."id" FROM "participations" "participation", "teams" "team" WHERE "participation"."teamId" = "team"."id" AND "participation"."competitionId" = 1
