@@ -20,11 +20,17 @@ INSERT INTO universities VALUES
 (9, 'Universidad Nacional Experimental Fuerzas Armadas','https://res.cloudinary.com/rolandoandrade/image/upload/v1583846101/accounts/7f083170e1f7fc43aefaf1352c1ffd95.jpg');
 
 INSERT INTO teams VALUES
-(1, 'Universidad Católica Andrés Bello (M)', 'futbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045479/accounts/Escudo_UCAB.jpg','masculino','A',1,1),
-(2, 'Universidad Católica Andrés Bello (F)', 'femenino', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045479/accounts/Escudo_UCAB.jpg','femenino','A',1,1),
-(3, 'Universidad Central de Venezuela (M)', 'futbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045798/accounts/UCV.png','masculino','A',2,1),
-(4, 'Universidad Central de Venezuela (F)', 'femenino', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045798/accounts/UCV.png','femenino','A',2,1),
-(5, 'Universidad Simón Bolívar (M)', 'futbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045746/accounts/usb.jpg','masculino','A',3,1),
-(6, 'Universidad Simón Bolívar (F)', 'femenino', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045746/accounts/usb.jpg','femenino','A',3,1),
-(7, 'Universidad Metropolitana(M)', 'futbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045573/accounts/customLogo.png','masculino','A',4,1),
-(8, 'Universidad Metropolitana (F)', 'femenino', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045573/accounts/customLogo.png','femenino','A',4,1);
+(1, 'Universidad Católica Andrés Bello (M)', 'fútbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045479/accounts/Escudo_UCAB.jpg','masculino','A',1,1),
+(2, 'Universidad Católica Andrés Bello (F)', 'fútbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045479/accounts/Escudo_UCAB.jpg','femenino','A',1,1),
+(3, 'Universidad Central de Venezuela (M)', 'fútbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045798/accounts/UCV.png','masculino','A',2,1),
+(4, 'Universidad Central de Venezuela (F)', 'fútbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045798/accounts/UCV.png','femenino','A',2,1),
+(5, 'Universidad Simón Bolívar (M)', 'fútbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045746/accounts/usb.jpg','masculino','A',3,1),
+(6, 'Universidad Simón Bolívar (F)', 'fútbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045746/accounts/usb.jpg','femenino','A',3,1),
+(7, 'Universidad Metropolitana(M)', 'fútbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045573/accounts/customLogo.png','masculino','A',4,1),
+(8, 'Universidad Metropolitana (F)', 'fútbol', 'https://res.cloudinary.com/rolandoandrade/image/upload/v1573045573/accounts/customLogo.png','femenino','A',4,1);
+
+
+INSERT INTO fields VALUES
+(1, 'UCAB', 'Final Av. Teherán, Urb. Montalbán, Caracas.'),
+(2, 'UCV', 'Av. Los Ilustres, Ciudad Universitaria, Los Chaguaramos, Caracas.'),
+(3, 'UNIMET', 'Av. Boyacá, Urb. Terrazas del Ávila, Miranda.');
